@@ -1,0 +1,186 @@
+:root {
+  font-family: Roboto, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1a1919;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 20px 10%;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='700' preserveAspectRatio='none' viewBox='0 0 1440 700'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1034%26quot%3b)' fill='none'%3e%3crect width='1440' height='700' x='0' y='0' fill='rgba(6%2c 3%2c 3%2c 1)'%3e%3c/rect%3e%3cpath d='M1464 700L0 700 L0 399.39Q97.4 376.79%2c 120 474.19Q132.84 415.03%2c 192 427.87Q233.7 349.57%2c 312 391.27Q408.72 367.99%2c 432 464.7Q451.8 412.5%2c 504 432.3Q554.23 362.53%2c 624 412.76Q652.05 368.81%2c 696 396.86Q788.66 369.52%2c 816 462.19Q842.04 416.23%2c 888 442.26Q916.26 398.52%2c 960 426.79Q1042.74 389.53%2c 1080 472.28Q1085.91 406.19%2c 1152 412.11Q1220.87 360.98%2c 1272 429.85Q1321.95 407.8%2c 1344 457.75Q1395.85 389.6%2c 1464 441.45z' fill='rgba(6%2c 18%2c 43%2c 1)'%3e%3c/path%3e%3cpath d='M1512 700L0 700 L0 510.69Q33.79 472.48%2c 72 506.26Q128.3 490.56%2c 144 546.85Q191.12 521.97%2c 216 569.08Q252.9 485.98%2c 336 522.88Q380.57 495.45%2c 408 540.02Q415.28 475.3%2c 480 482.59Q523.01 453.6%2c 552 496.6Q598.15 470.75%2c 624 516.9Q701.76 474.66%2c 744 552.42Q753.37 489.79%2c 816 499.16Q863.63 426.8%2c 936 474.43Q1001.56 419.99%2c 1056 485.54Q1132.64 490.18%2c 1128 566.82Q1182.59 501.41%2c 1248 556Q1268.4 504.4%2c 1320 524.81Q1351.84 436.65%2c 1440 468.49Q1488.69 445.19%2c 1512 493.88z' fill='rgba(15%2c 37%2c 73%2c 1)'%3e%3c/path%3e%3cpath d='M1464 700L0 700 L0 616.88Q53.45 550.33%2c 120 603.77Q201.41 565.18%2c 240 646.59Q268.18 554.77%2c 360 582.94Q405.35 556.29%2c 432 601.64Q440.25 537.89%2c 504 546.14Q545 515.14%2c 576 556.15Q653.89 514.04%2c 696 591.93Q750.33 574.26%2c 768 628.59Q822.47 563.06%2c 888 617.53Q937.97 547.5%2c 1008 597.46Q1050.29 519.75%2c 1128 562.03Q1174.55 536.58%2c 1200 583.13Q1290.83 553.96%2c 1320 644.79Q1347.94 600.73%2c 1392 628.67Q1394.18 558.85%2c 1464 561.03z' fill='rgba(19%2c 56%2c 103%2c 1)'%3e%3c/path%3e%3cpath d='M1512 700L0 700 L0 664.97Q60.32 653.29%2c 72 713.61Q87.53 609.14%2c 192 624.68Q260.67 621.35%2c 264 690.02Q272.85 626.87%2c 336 635.71Q404.83 584.54%2c 456 653.37Q545.45 622.82%2c 576 712.26Q625.19 641.45%2c 696 690.65Q714.68 637.33%2c 768 656Q811.55 579.55%2c 888 623.1Q974.07 589.17%2c 1008 675.25Q1050.47 597.73%2c 1128 640.2Q1171.8 612%2c 1200 655.81Q1277 612.81%2c 1320 689.81Q1393.61 643.41%2c 1440 717.02Q1452.86 657.88%2c 1512 670.73z' fill='rgba(153%2c 155%2c 163%2c 0.89)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1034'%3e%3crect width='1440' height='700' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+background-attachment: fixed;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.content span{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+  color:#85bcfa;
+  font-size: 60px;
+}
+
+.content > p{
+  position: relative;
+  bottom: 20px;
+}
+
+.searching > input{
+  width: 250px;
+  padding: 7px;
+  background: rgba(215, 233, 240, 0.18);
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(150, 117, 117, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(157, 213, 223, 0.3);
+}
+
+
+
+.options li{
+  list-style: none;
+  margin-left: 0;
+}
+
+.container .list > div{
+  background-color: #3d3a3a;
+  text-align: center;
+  border-radius: 4px;
+  opacity: .80;
+  margin-right:3px;
+  transition: all .3s ease-in-out;
+}
+.container .list > div:hover{
+  transform: translateY(-1vmax);
+}
+
+.container .name > h2{
+  font-size: 30px;
+  color:rgb(15, 194, 248);
+}
+
+.list{
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 20px;
+}
+
+.tiles {
+  display: flex;
+  padding: 40px;
+  justify-content: space-evenly;
+  margin: 10px;
+  transition: all .2s ease-in-out;
+}
+
+.tiles > div  {
+  box-shadow: rgba(241, 92, 92, 0.16) 0px 10px 36px 0px, rgba(59, 20, 2, 0.06) 0px 0px 0px 1px;
+  padding: 50px 180px;
+  border-radius: 6px;
+}
+.tiles > div> span {
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+  bottom: 30px;
+  right: 160px;
+}
+.tiles > div> svg {
+  position: relative;
+  bottom: 25px;
+  right: 165px;
+}
+.tiles .sunrise{
+  background: url("https://static.vecteezy.com/system/resources/thumbnails/007/759/345/small_2x/sunrise-or-sunset-flat-landscape-illustration-free-vector.jpg");
+  background-size: cover;
+  color:#1a1919;
+  transition: all .2s ease-in-out;
+}
+.tiles .sunrise:hover{
+  transform: translateY(-1vmax);
+}
+.tiles .sunset{
+  background: url("https://img.freepik.com/premium-vector/scenic-sunset-illustration-with-river_104785-513.jpg");
+  background-size: cover;
+  transition: all .3s ease-in-out;
+}
+.tiles .sunset:hover{
+  transform: translateY(-1vmax);
+}
+
+.tile-2{
+  display: flex;
+  margin-right:6px;
+}
+
+
+.cube{
+  display: flex-wrap;
+  padding: 20px;
+  background: rgba(6, 180, 248, 0.18);
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(110, 11, 11, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(243, 151, 65, 0.3);
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

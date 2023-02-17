@@ -1,0 +1,33 @@
+{
+  "name": "weather-react-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preinstall": "npx npm-force-resolutions",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "dotenv": "^16.0.3",
+    "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18.2.0",
+    "react-select-async-paginate": "^0.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "react-error-overlay": "^6.0.9",
+    "vite": "^4.1.0"
+  }
+}
+
+
+
+
