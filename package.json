@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "preinstall": "npx npm-force-resolutions",
     "build": "vite build",
     "preview": "vite preview"
   },
